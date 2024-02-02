@@ -1,0 +1,87 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1 feb 2024, 21:20:39
+    Author     : aleo2
+*/
+
+p{
+    text-align: justify;
+    color: black; background-color: lightgray;
+    font-family: Georgia, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+        color: red;
+        background-color: white;
+}
+
+.menuH a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    padding: 20px;
+}
+
+.menuH a:hover{
+    background-color: red;
+    color: white;
+}
+
+.menuH{
+    overflow: hidden;
+    border: 5px double;
+}
+
+body{
+    background-color: lightgray;
+}
+
+
+.menuV{
+    float: left;
+    width: 26%;
+    overflow: hidden;
+  
+}
+
+.menuV a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menuV a:hover{
+    background-color: white;
+    color: black;
+}
+
+.link a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    padding: 20px;
+}
+
+.link a:hover{
+    background-color: white;
+    color: black;
+}
