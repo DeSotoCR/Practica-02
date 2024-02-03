@@ -9,7 +9,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 
 p{
     text-align: justify;
-    color: black; background-color: lightgray;
+    color: black;
+    background-color: lightgray;
     font-family: Georgia, serif;
     margin-left: 40px;
     margin-right: 40px;
@@ -22,8 +23,35 @@ p{
 
 h1{
     text-align: center;
-        color: red;
-        background-color: white;
+    color: red;
+    background-color: white;
+}
+
+h2{
+    text-align: left;
+    color: red;
+    margin-left: 20px;
+    margin-top: 10px;
+    /*background-color: white;*/
+}
+
+h4{
+   text-align: left;
+    color: red;
+    margin-left: 40px;
+    margin-top: 10px; 
+}
+
+iframe{
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    text-align: center;
 }
 
 .menuH a{
@@ -37,8 +65,8 @@ h1{
 }
 
 .menuH a:hover{
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: red;
 }
 
 .menuH{
@@ -55,11 +83,11 @@ body{
     float: left;
     width: 26%;
     overflow: hidden;
-  
+
 }
 
 .menuV a{
-    background-color: black;
+    background-color: red;
     color: white;
     text-decoration: none;
     padding: 20px;
@@ -68,7 +96,7 @@ body{
 
 .menuV a:hover{
     background-color: white;
-    color: black;
+    color: red;
 }
 
 .link a{
