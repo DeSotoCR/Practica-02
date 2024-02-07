@@ -100,7 +100,7 @@ body{
 }
 
 .link a{
-    background-color: black;
+    background-color: red;
     color: white;
     text-decoration: none;
     float: left;
@@ -111,5 +111,5 @@ body{
 
 .link a:hover{
     background-color: white;
-    color: black;
+    color: red;
 }
